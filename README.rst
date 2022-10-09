@@ -223,6 +223,11 @@ DNS lookup
   ``ARP process`` below for the DNS server.
 * If the DNS server is on a different subnet, the network library follows
   the ``ARP process`` below for the default gateway IP.
+* There are 4 DNS servers involved in a loading a webpage;DNS recursor, Root
+  nameserver, TLD name Server and Authoritative nameserver.
+* DNS recursor makes a series of request untill the authoritative Nameserver
+  is reached. The authoritative Name Server is the last stop in the nameserver
+  query.
 
 
 ARP process
